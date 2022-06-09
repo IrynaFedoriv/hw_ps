@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -6,14 +8,13 @@ body {
 
 body {
     height: 100vh;
-    padding: 0 40px;
-    background: linear-gradient(17deg rgb(215, 76, 76) rgb(69, 47, 167));
+    background: linear-gradient(122deg, #1ae5ab, #297e669e);
 }
 
-.main section.block:first-child {
+/* .main section.block:first-child {
     border-bottom: 2px dotted #000;
     box-shadow: 0px 1 px 0 px #000;
-}
+} */
 
 /* .ine {
     height: 3px;
@@ -21,8 +22,8 @@ body {
 }l */
 
 .header {
-    padding: 25px;
-    background: rgb(172, 18, 18);
+    padding: 20px;
+    background: rgb(18, 172, 128);
 }
 
 .nav {
@@ -34,10 +35,10 @@ body {
 .menu__link {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
-    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a7e0e0;
     font-size: 22px;
-    font-weight: 800px;
+    font-weight: 700px;
 }
 .menu__item {
     display: inline-block;
@@ -46,13 +47,12 @@ body {
 } 
 
 .menu__link:hover {
-    color: rgb(14, 31, 31);
+    color: #165959;
 }
 
 .menu__link:visited {
-    color: red;
+    color: #5500ff;
 }
-
 
 .main {
     height: 100%;
@@ -60,5 +60,65 @@ body {
     max-width: 1040px;
     margin: 0 auto;
     padding: 15px;
-    box-shadow: #000 15px;
+    box-shadow: 0px 1px 9px 5px rgb(33, 65, 39);
+}
+
+.footer {
+    background-color: #121116;
+    height: 420px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.logo_icon {
+    width: 120px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.footer__text {
+    font-size: 20pt;
+    color: #ffffff;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px auto 0 auto;
+    margin: 0px auto 0 auto;
+}
+
+.separator_icon {
+    padding: 20px;
+    margin-top: 0px;
+    width: 231px;
+}
+
+.facebook_icon{
+    height: 18px;
+}
+
+.tweter_icon {
+    padding: 0 25px 0 25px;
+    height: 18px;
+}
+
+.google_icon {
+    height: 18px;
+}
+
+.dribble_icon {
+    padding-left: 25px;
+    height: 18px;
+}
+
+.copyright_text {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 15pt;
+    padding-top: 91px;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.kasper {
+    color: #00c7fc;
 }
